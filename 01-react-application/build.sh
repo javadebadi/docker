@@ -1,0 +1,1 @@
+docker build -t javadebadi/01-react-application ./frontend/

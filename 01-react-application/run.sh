@@ -1,0 +1,1 @@
+docker run -p 3000:3000 --name 01-react-application-container javadebadi/01-react-application
