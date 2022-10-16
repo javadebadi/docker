@@ -1,0 +1,1 @@
+docker build -t javadebadi/02-django-api ./backend/
