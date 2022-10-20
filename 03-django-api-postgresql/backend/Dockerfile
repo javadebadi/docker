@@ -5,12 +5,8 @@ COPY . /backend
 
 RUN mkdir ../db
 
-RUN pip install -r requirements.txt && \
-    python manage.py makemigrations && \
-    python manage.py migrate
+RUN pip install -r requirements.txt
 
-# read: https://stackoverflow.com/questions/65301487/django-with-docker-stuck-on-watching-for-file-changes-with-statreloader
-# read: https://docs.docker.com/samples/django/
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 

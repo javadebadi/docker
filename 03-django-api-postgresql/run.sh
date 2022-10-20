@@ -1,0 +1,1 @@
+docker-compose -p 8000:8000 up
